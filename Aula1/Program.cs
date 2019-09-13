@@ -6,14 +6,29 @@ namespace Aula1 //COMENTARIO
     {
         static void Main(string[] args)
         {
-            int num1 = 23;
+            // Somente declaramos, sem atribuir valor
+            int num1;
+
+            // Somente atribuimos um valor
             int num2 = 5;
-            int num3, num4, num5 = 60;
+
+            // Declaramos diversas variáveis do mesmo tipo
+            int num3, num4, num5;
+
+            // Variável do tipo decimal (real)
             float media;
 
+            // Variável do tipo lógico (booleana)
             bool resultado = false;
 
-            Console.WriteLine(num1 + num2);
+            // Variável do tipo texto (caracteres)
+            string nomeAluno;
+
+            // Escrever no terminal
+            Console.WriteLine("Bem vindos à nossa primeira aplicação:");
+
+            // 
+            Console.Write("Digite o seu nome: "+)
         }
     }
 }
