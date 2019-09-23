@@ -16,39 +16,6 @@ namespace Atividade_3
             else{
                 Console.WriteLine($"O maior número é o: {ex3_num2}");
             }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            // int[] vlr = new int[10];
-            // int v=0;
-            // int maior = -1;
-            // int ind = 0;
-
-            // for(int i=0; i<=9; i++){
-            //     v = i+1;
-            //     Console.Write("Digite o " + v + "° valor: ");
-            //     vlr[i] = int.Parse(Console.ReadLine());
-
-            //     if(vlr[i] > maior){
-            //         maior = vlr[i];
-            //         ind = i;
-            //     }
-            // }
-
-            // Console.WriteLine("O maior valor é: " + maior);
-            // Console.WriteLine("O indicie é: " + ind);
         }
     }
 }

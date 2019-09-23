@@ -5,11 +5,14 @@ namespace Atividade_7 {
         static void Main (string[] args) {
             float[] vetorA = new float[10];
             int c = 0;
-            float maior = -99999; // Para evitar que valores negativos não entrem na comparação
+            float maior = 0; // Para evitar que valores negativos não entrem na comparação
             int posic = 0;
             for (c = 0; c <= 9; c++) {
                 Console.Write ($"Digite o {c+1}º valor: ");
                 vetorA[c] = float.Parse (Console.ReadLine ());
+                if (c == 0){
+                    maior = vetorA[0];
+                }
                 if (vetorA[c] > maior) {
                     maior = vetorA[c];
                     posic = (c+1);
