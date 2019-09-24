@@ -16,7 +16,7 @@ namespace Aula6 {
 
             // Chamamos nossa função de soma
 
-            Console.WriteLine( CalculoSoma(resultado) );
+            Console.WriteLine( CalculaSoma(numeros) );
 
         }
 

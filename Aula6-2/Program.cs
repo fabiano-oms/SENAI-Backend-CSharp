@@ -17,8 +17,10 @@ namespace Aula6_2 {
             int resto = 0;
             int calculo = 0;
 
-            //cpfUsuario = cpfUsuario.Trim ('.');
-            //cpfUsuario = cpfUsuario.Trim ('-');
+            cpfUsuario = cpfUsuario.Replace (" ","");
+            cpfUsuario = cpfUsuario.Replace ("-","");
+            cpfUsuario = cpfUsuario.Replace (".","");
+            
             cpfCalculo = cpfUsuario.Substring (0, 9); // pega somente os caracteres dentro do limite (inicio , quantidade de caracteres);
 
             for (int i = 0; i <= 8; i++) {
@@ -56,6 +58,8 @@ namespace Aula6_2 {
             }
             if (digito_v2 == cpfUsuario[10].ToString ()) {
                 resultado = true;
+            }else{
+                resultado = false;
             }
             return resultado;
         }
