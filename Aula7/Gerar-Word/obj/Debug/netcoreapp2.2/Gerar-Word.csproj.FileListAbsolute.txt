@@ -1,0 +1,11 @@
+C:\Users\fic\Desktop\Gerar-Arquivos-por-Codigo\Gerar-Word\bin\Debug\netcoreapp2.2\Gerar-Word.deps.json
+C:\Users\fic\Desktop\Gerar-Arquivos-por-Codigo\Gerar-Word\bin\Debug\netcoreapp2.2\Gerar-Word.runtimeconfig.json
+C:\Users\fic\Desktop\Gerar-Arquivos-por-Codigo\Gerar-Word\bin\Debug\netcoreapp2.2\Gerar-Word.runtimeconfig.dev.json
+C:\Users\fic\Desktop\Gerar-Arquivos-por-Codigo\Gerar-Word\bin\Debug\netcoreapp2.2\Gerar-Word.dll
+C:\Users\fic\Desktop\Gerar-Arquivos-por-Codigo\Gerar-Word\bin\Debug\netcoreapp2.2\Gerar-Word.pdb
+C:\Users\fic\Desktop\Gerar-Arquivos-por-Codigo\Gerar-Word\obj\Debug\netcoreapp2.2\Gerar-Word.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\Gerar-Arquivos-por-Codigo\Gerar-Word\obj\Debug\netcoreapp2.2\Gerar-Word.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\Gerar-Arquivos-por-Codigo\Gerar-Word\obj\Debug\netcoreapp2.2\Gerar-Word.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\Gerar-Arquivos-por-Codigo\Gerar-Word\obj\Debug\netcoreapp2.2\Gerar-Word.AssemblyInfo.cs
+C:\Users\fic\Desktop\Gerar-Arquivos-por-Codigo\Gerar-Word\obj\Debug\netcoreapp2.2\Gerar-Word.dll
+C:\Users\fic\Desktop\Gerar-Arquivos-por-Codigo\Gerar-Word\obj\Debug\netcoreapp2.2\Gerar-Word.pdb
