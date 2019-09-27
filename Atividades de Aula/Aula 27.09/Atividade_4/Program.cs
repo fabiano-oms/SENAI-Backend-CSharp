@@ -17,7 +17,7 @@ namespace Atividade_4 {
                     maior = vetor[c];
                 }
             }
-        return maior;
+            return maior;
         }
     }
 }
