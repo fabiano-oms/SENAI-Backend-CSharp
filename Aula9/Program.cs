@@ -1,4 +1,5 @@
 ﻿using System;
+using Aula9.Models;
 
 namespace Aula9 {
     class Program {
@@ -7,7 +8,7 @@ namespace Aula9 {
             #region Aluno 1
             //Declarando o objeto
             //instanciando o objeto
-            AlunoModel aluno = new AlunoModel(); 
+            AlunoModel aluno = new AlunoModel();
             //Cadastrar o Aluno no sistema
             aluno.CadastrarAluno();
             //Exibir o Aluno no sistema

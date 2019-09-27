@@ -1,4 +1,4 @@
-usign System;
+using System;
 
 namespace Aula9.Models {
     public class AlunoModel {
@@ -7,7 +7,6 @@ namespace Aula9.Models {
 
         /// <summary>
         /// Nome do aluno
-        /// </summary>
         /// <value>string</value>
         public string Nome { get; set; }
 
@@ -55,23 +54,23 @@ namespace Aula9.Models {
 
         public void CadastrarAluno(){
             System.Console.WriteLine("Insira o seu nome:");
-            aluno.Nome = Console.ReadLine();
+            Nome = Console.ReadLine();
             
             System.Console.WriteLine("Insira o nome do Curso:");
-            aluno.Curso = Console.ReadLine();
+            Curso = Console.ReadLine();
             
             System.Console.WriteLine("Insira seu RA:");
-            aluno.RA = Console.ReadLine();
+            RA = Console.ReadLine();
             
             System.Console.WriteLine("Insira sua idade:");
-            aluno.Idade = int.Parse(Console.ReadLine());
+            Idade = int.Parse(Console.ReadLine());
         }
 
         public void ExibirAluno(){
-            System.Console.WriteLine($"Nome: {aluno.Nome}");
-            System.Console.WriteLine($"Curso: {aluno.Curso}");
-            System.Console.WriteLine($"RA: {aluno.RA}");
-            System.Console.WriteLine($"Idade: {aluno.Idade}");
+            System.Console.WriteLine($"Nome: {Nome}");
+            System.Console.WriteLine($"Curso: {Curso}");
+            System.Console.WriteLine($"RA: {RA}");
+            System.Console.WriteLine($"Idade: {Idade}");
         }
     }
 }
