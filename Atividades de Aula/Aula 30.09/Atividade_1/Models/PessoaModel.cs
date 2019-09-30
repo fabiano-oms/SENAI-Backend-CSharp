@@ -1,10 +1,10 @@
 namespace Atividade_1.Models
 {
-    public class PessoasModel
+    public class PessoaModel
     {
         public string NomePessoa { get; set; }
         public int IdadePessoa { get; set; }
-        public double PesoPessoa { get; set; }
-        public double AlturaPessoa { get; set; }
+        public float PesoPessoa { get; set; }
+        public float AlturaPessoa { get; set; }
     }
 }
