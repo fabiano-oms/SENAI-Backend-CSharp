@@ -1,0 +1,7 @@
+terça-feira, 1 de outubro de 2019
+10:26
+System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(ReadOnlySpan`1 value)
+   at System.Boolean.Parse(String value)
+   at Atividade_1.Controllers.AlunoController.CadastrarAluno() in C:\Users\fic\Desktop\SENAI-Backend-CSharp\Atividades de Aula\Aula 01.10\Atividade_1\Controllers\AlunoController.cs:line 19
+

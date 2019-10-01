@@ -6,4 +6,6 @@
 23.09 - Aula 5 (Uso de todas as estruturas para gerar um algoritmo específico
 24.09 - Aula 6 (Uso das estruturas para criar um algoritmo que verifica dígito de cpf/cnpj)
 25.09 - Aula 7 (Gerar Arquivo com código)
-26.09 - Aula 8
+27.09 - Aula 8/9 (Metodos) (try / catch)
+30.09 - Aula 10/11/12 (Metodos usando POO) (MCV - models controller view)
+01.10 - Aula 10/11/12 (Metodos usando POO) (MCV - models controller view)
