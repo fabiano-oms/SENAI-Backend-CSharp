@@ -9,45 +9,99 @@ namespace Atividade_3_Dojo.Controllers
         CapitaoAmericaController player1 = new CapitaoAmericaController();
         HomemFerroController player2 = new HomemFerroController();
 
-        public void EscolherJogador(){
-            System.Console.WriteLine("Escolha o personagem:\n[1 - Capitão América]\n[2 - Homem de Ferro]");
-            player.Operador = int.Parse(Console.ReadLine());
+        public void IniciarJogo(){
+            Console.Clear();
+            while(player.Menu != 0){
+                player.Menu2 = 1;
+                System.Console.WriteLine(
+                                                    @"
+                                                    Escolha o Personagem:
+                                                    [1 - Capitão América]
+                                                    [2 - Homem de Ferro ]
 
-            // string ex = "funcionando";
-            switch(player.Operador){
-                case 1:
-                    System.Console.Write("Capitão América possui seu escudo?\n[1 - SIM / 2 - NÃO]: ");
-                    player.StatusEscudo = int.Parse(Console.ReadLine());
-                    if(player.StatusEscudo == 1){
-                        player1.ComEscudo();
-                        System.Console.WriteLine("Escolha a ação a ser executada:\n[1 - Pular]\n[2 - Lançar]\n[3 - Defender]\n[4 - Status]");
-                        player.Operador2 = int.Parse(Console.ReadLine());
-                        switch(player.Operador2){
-                            case 1:
-                            break;
-                            case 2:
-                            break;
-                            case 3:
-                            break;
-                            case 4:
-                            break;
+                                                    [0 - Sair           ]"
+                );
+                System.Console.Write("\nINPUT: ");
+                player.Menu = int.Parse(Console.ReadLine());
+
+                switch(player.Menu){
+                    case 0:
+                        System.Console.WriteLine(
+                                                    @"
+                                                    -------------------
+                                                    Obrigado por Jogar!
+                                                    -------------------"
+                        );
+                    break;
+                    case 1:
+                        System.Console.WriteLine(
+                                                    @"
+                                                    Capitão América possui seu escudo?
+                                                    [1 - SIM]
+                                                    [2 - NÃO]"
+                        );
+                        System.Console.Write("\nINPUT: ");
+                        player.StatusEscudo = int.Parse(Console.ReadLine());
+                        if(player.StatusEscudo == 1){
+                            player1.ComEscudo();
+                            while (player.Menu2 != 0){
+                                MenuCapitaoAmerica();
+                            }
+                        }else{
+                            player1.SemEscudo();
+                            while (player.Menu2 != 0){
+                                MenuCapitaoAmerica();
+                            }
                         }
-                    }
-                    bool escudo = bool.Parse(Console.ReadLine());
-                    if(escudo == true){
-                        
-                    }else{
-                        player1.SemEscudo();
-                    }
+                    break;
+                    case 2:
+
+                    break;
+                    default:
+                        System.Console.WriteLine("Personagem Inválido!");
+                    break;
+                }
+            }
+        }
+
+        public void Status (){
+
+        }
+
+        public void MenuCapitaoAmerica(){
+            System.Console.WriteLine(
+                                                    @"
+                                                    Escolha a ação a ser executada:
+                                                    [1 - Pular   ]
+                                                    [2 - Lançar  ]
+                                                    [3 - Defender]
+                                                    [4 - Status  ]
+                                                    [0 - Voltar  ]"
+            );
+            System.Console.Write("\nINPUT: ");
+            player.Menu2 = int.Parse(Console.ReadLine());
+            switch(player.Menu2){
+                case 0:
+                    System.Console.WriteLine("\nReiniciando o Jogo!");
+                break;
+                case 1:
+                    player1.Pular ();
                 break;
                 case 2:
-
+                    player1.Lancar ();
+                break;
+                case 3:
+                    player1.Defender ();
+                break;
+                case 4:
+                    // player1.Status ();
                 break;
                 default:
-                    // ex = "erro";
-                    System.Console.WriteLine("Personagem Inválido!");
+                    System.Console.WriteLine("\nAção Inválida!");
                 break;
             }
         }
+
+        public void Personagem
     }
 }
