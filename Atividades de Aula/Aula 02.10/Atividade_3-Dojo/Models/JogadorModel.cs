@@ -9,13 +9,11 @@ namespace Atividade_3_Dojo.Models {
         //Capitão América
         public bool Escudo { get; set; }
         public int StatusEscudo { get; set; }
-        // public string CorTextoBlue { get; set; }
 
 
         //Homem ferro
         public bool Armadura { get; set; }
         public int StatusArmadura { get; set; }
-        // public string CorTextoRed { get; set; }
 
 
         //Menu

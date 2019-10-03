@@ -25,33 +25,11 @@ namespace Atividade_3_Dojo.Controllers {
                         break;
                     case 1:
                         Escudo ();
-                        if (player.StatusEscudo == 1) {
-                            player1.ComEscudo ();
-                            while (player.MenuCap != 0) {
-                                MenuCapitaoAmerica ();
-
-                            }
-                        } else {
-                            player1.SemEscudo ();
-                            while (player.MenuCap != 0) {
-                                MenuCapitaoAmerica ();
-
-                            }
-                        }
+                        Case1 ();
                         break;
                     case 2:
                         Armadura ();
-                        if (player.StatusArmadura == 1) {
-                            player2.ComArmadura ();
-                            while (player.MenuHom != 0) {
-                                MenuHomemFerro ();
-                            }
-                        } else {
-                            player2.SemArmadura ();
-                            while (player.MenuHom != 0) {
-                                MenuHomemFerro ();
-                            }
-                        }
+                        Case2 ();
                         break;
                     default:
                         System.Console.WriteLine ("\nPersonagem Inválido!");
@@ -78,6 +56,7 @@ namespace Atividade_3_Dojo.Controllers {
             );
             System.Console.Write ("\nINPUT: ");
             player.Menu = int.Parse (Console.ReadLine ());
+            Console.Clear();
         }
 
         public void Escudo () {
@@ -89,6 +68,7 @@ namespace Atividade_3_Dojo.Controllers {
             );
             System.Console.Write ("\nINPUT: ");
             player.StatusEscudo = int.Parse (Console.ReadLine ());
+            Console.Clear();
         }
 
         public void MenuCapitaoAmerica () {
@@ -96,14 +76,15 @@ namespace Atividade_3_Dojo.Controllers {
             System.Console.WriteLine (
                 @"
                                                     Escolha a ação a ser executada:
-                                                    [1 - Pular   ]
-                                                    [2 - Lançar  ]
-                                                    [3 - Defender]
-                                                    [4 - Status  ]
-                                                    [0 - Voltar  ]"
+                                                    [1 - Pular    ]
+                                                    [2 - Lançar   ]
+                                                    [3 - Defender ]
+                                                    [4 - Status   ]
+                                                    [0 - Reiniciar]"
             );
             System.Console.Write ("\nINPUT: ");
             player.MenuCap = int.Parse (Console.ReadLine ());
+            Console.Clear();
             switch (player.MenuCap) {
                 case 0:
                     System.Console.WriteLine ("\nReiniciando o Jogo!", Green ());
@@ -127,6 +108,22 @@ namespace Atividade_3_Dojo.Controllers {
             }
         }
 
+        public void Case1 () {
+            if (player.StatusEscudo == 1) {
+                player1.ComEscudo ();
+                while (player.MenuCap != 0) {
+                    MenuCapitaoAmerica ();
+
+                }
+            } else {
+                player1.SemEscudo ();
+                while (player.MenuCap != 0) {
+                    MenuCapitaoAmerica ();
+
+                }
+            }
+        }
+
         public void Armadura () {
             System.Console.WriteLine (
                 @"
@@ -136,6 +133,7 @@ namespace Atividade_3_Dojo.Controllers {
             );
             System.Console.Write ("\nINPUT: ");
             player.StatusArmadura = int.Parse (Console.ReadLine ());
+            Console.Clear();
         }
 
         public void MenuHomemFerro () {
@@ -143,14 +141,15 @@ namespace Atividade_3_Dojo.Controllers {
             System.Console.WriteLine (
                 @"
                                                     Escolha a ação a ser executada:
-                                                    [1 - Pular   ]
-                                                    [2 - Atirar  ]
-                                                    [3 - Voar    ]
-                                                    [4 - Status  ]
-                                                    [0 - Voltar  ]"
+                                                    [1 - Pular    ]
+                                                    [2 - Atirar   ]
+                                                    [3 - Voar     ]
+                                                    [4 - Status   ]
+                                                    [0 - Reiniciar]"
             );
             System.Console.Write ("\nINPUT: ");
             player.MenuHom = int.Parse (Console.ReadLine ());
+            Console.Clear();
             switch (player.MenuHom) {
                 case 0:
                     System.Console.WriteLine ("\nReiniciando o Jogo!", Green ());
@@ -171,6 +170,20 @@ namespace Atividade_3_Dojo.Controllers {
                 default:
                     System.Console.WriteLine ("\nAção Inválida!");
                     break;
+            }
+        }
+
+        public void Case2 () {
+            if (player.StatusArmadura == 1) {
+                player2.ComArmadura ();
+                while (player.MenuHom != 0) {
+                    MenuHomemFerro ();
+                }
+            } else {
+                player2.SemArmadura ();
+                while (player.MenuHom != 0) {
+                    MenuHomemFerro ();
+                }
             }
         }
 
