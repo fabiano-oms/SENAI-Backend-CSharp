@@ -20,3 +20,13 @@ C:\Users\fic\Desktop\SENAI-Backend-CSharp\Atividades de Aula\Aula 02.10\Atividad
 C:\Users\fic\Desktop\SENAI-Backend-CSharp\Atividades de Aula\Aula 02.10\Atividade_3-Dojo\obj\Debug\netcoreapp2.2\Atividade_3-Dojo.AssemblyInfo.cs
 C:\Users\fic\Desktop\SENAI-Backend-CSharp\Atividades de Aula\Aula 02.10\Atividade_3-Dojo\obj\Debug\netcoreapp2.2\Atividade_3-Dojo.dll
 C:\Users\fic\Desktop\SENAI-Backend-CSharp\Atividades de Aula\Aula 02.10\Atividade_3-Dojo\obj\Debug\netcoreapp2.2\Atividade_3-Dojo.pdb
+C:\Users\Fabiano\Desktop\GITHUB\SENAI-Backend-CSharp\Atividades de Aula\Aula 02.10\Atividade_3-Dojo\bin\Debug\netcoreapp2.2\Atividade_3-Dojo.deps.json
+C:\Users\Fabiano\Desktop\GITHUB\SENAI-Backend-CSharp\Atividades de Aula\Aula 02.10\Atividade_3-Dojo\bin\Debug\netcoreapp2.2\Atividade_3-Dojo.runtimeconfig.json
+C:\Users\Fabiano\Desktop\GITHUB\SENAI-Backend-CSharp\Atividades de Aula\Aula 02.10\Atividade_3-Dojo\bin\Debug\netcoreapp2.2\Atividade_3-Dojo.runtimeconfig.dev.json
+C:\Users\Fabiano\Desktop\GITHUB\SENAI-Backend-CSharp\Atividades de Aula\Aula 02.10\Atividade_3-Dojo\bin\Debug\netcoreapp2.2\Atividade_3-Dojo.dll
+C:\Users\Fabiano\Desktop\GITHUB\SENAI-Backend-CSharp\Atividades de Aula\Aula 02.10\Atividade_3-Dojo\bin\Debug\netcoreapp2.2\Atividade_3-Dojo.pdb
+C:\Users\Fabiano\Desktop\GITHUB\SENAI-Backend-CSharp\Atividades de Aula\Aula 02.10\Atividade_3-Dojo\obj\Debug\netcoreapp2.2\Atividade_3-Dojo.csprojAssemblyReference.cache
+C:\Users\Fabiano\Desktop\GITHUB\SENAI-Backend-CSharp\Atividades de Aula\Aula 02.10\Atividade_3-Dojo\obj\Debug\netcoreapp2.2\Atividade_3-Dojo.AssemblyInfoInputs.cache
+C:\Users\Fabiano\Desktop\GITHUB\SENAI-Backend-CSharp\Atividades de Aula\Aula 02.10\Atividade_3-Dojo\obj\Debug\netcoreapp2.2\Atividade_3-Dojo.AssemblyInfo.cs
+C:\Users\Fabiano\Desktop\GITHUB\SENAI-Backend-CSharp\Atividades de Aula\Aula 02.10\Atividade_3-Dojo\obj\Debug\netcoreapp2.2\Atividade_3-Dojo.dll
+C:\Users\Fabiano\Desktop\GITHUB\SENAI-Backend-CSharp\Atividades de Aula\Aula 02.10\Atividade_3-Dojo\obj\Debug\netcoreapp2.2\Atividade_3-Dojo.pdb

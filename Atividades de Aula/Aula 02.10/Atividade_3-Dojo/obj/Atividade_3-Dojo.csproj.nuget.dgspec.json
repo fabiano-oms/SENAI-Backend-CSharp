@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fic\\Desktop\\SENAI-Backend-CSharp\\Atividades de Aula\\Aula 02.10\\Atividade_3-Dojo\\Atividade_3-Dojo.csproj": {}
+    "C:\\Users\\Fabiano\\Desktop\\GITHUB\\SENAI-Backend-CSharp\\Atividades de Aula\\Aula 02.10\\Atividade_3-Dojo\\Atividade_3-Dojo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fic\\Desktop\\SENAI-Backend-CSharp\\Atividades de Aula\\Aula 02.10\\Atividade_3-Dojo\\Atividade_3-Dojo.csproj": {
+    "C:\\Users\\Fabiano\\Desktop\\GITHUB\\SENAI-Backend-CSharp\\Atividades de Aula\\Aula 02.10\\Atividade_3-Dojo\\Atividade_3-Dojo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fic\\Desktop\\SENAI-Backend-CSharp\\Atividades de Aula\\Aula 02.10\\Atividade_3-Dojo\\Atividade_3-Dojo.csproj",
+        "projectUniqueName": "C:\\Users\\Fabiano\\Desktop\\GITHUB\\SENAI-Backend-CSharp\\Atividades de Aula\\Aula 02.10\\Atividade_3-Dojo\\Atividade_3-Dojo.csproj",
         "projectName": "Atividade_3-Dojo",
-        "projectPath": "C:\\Users\\fic\\Desktop\\SENAI-Backend-CSharp\\Atividades de Aula\\Aula 02.10\\Atividade_3-Dojo\\Atividade_3-Dojo.csproj",
-        "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fic\\Desktop\\SENAI-Backend-CSharp\\Atividades de Aula\\Aula 02.10\\Atividade_3-Dojo\\obj\\",
+        "projectPath": "C:\\Users\\Fabiano\\Desktop\\GITHUB\\SENAI-Backend-CSharp\\Atividades de Aula\\Aula 02.10\\Atividade_3-Dojo\\Atividade_3-Dojo.csproj",
+        "packagesPath": "C:\\Users\\Fabiano\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fabiano\\Desktop\\GITHUB\\SENAI-Backend-CSharp\\Atividades de Aula\\Aula 02.10\\Atividade_3-Dojo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\fic\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Fabiano\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -47,10 +47,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -6,3 +6,11 @@ System.FormatException: Input string was not in a correct format.
    at System.Int32.Parse(String s)
    at Atividade_1.Controllers.PessoasController.CadastrarPessoa() in C:\Users\fic\Desktop\SENAI-Backend-CSharp\Atividades de Aula\Aula 30.09\Atividade_1\Controllers\PessoasController.cs:line 14
 
+sábado, 30 de novembro de 2019
+18:17
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(ReadOnlySpan`1 str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(ReadOnlySpan`1 s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Atividade_1.Controllers.PessoasController.CadastrarPessoa() in C:\Users\Fabiano\Desktop\GITHUB\SENAI-Backend-CSharp\Atividades de Aula\Aula 30.09\Atividade_1\Controllers\PessoasController.cs:line 15
+

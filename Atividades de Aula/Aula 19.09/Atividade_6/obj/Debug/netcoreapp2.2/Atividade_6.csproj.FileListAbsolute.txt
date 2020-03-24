@@ -20,3 +20,13 @@ C:\Users\Fabiano\Desktop\SENAI-Backend-CSharp\Atividades de Aula\Aula 19.09\Ativ
 C:\Users\Fabiano\Desktop\SENAI-Backend-CSharp\Atividades de Aula\Aula 19.09\Atividade_6\obj\Debug\netcoreapp2.2\Atividade_6.AssemblyInfo.cs
 C:\Users\Fabiano\Desktop\SENAI-Backend-CSharp\Atividades de Aula\Aula 19.09\Atividade_6\obj\Debug\netcoreapp2.2\Atividade_6.dll
 C:\Users\Fabiano\Desktop\SENAI-Backend-CSharp\Atividades de Aula\Aula 19.09\Atividade_6\obj\Debug\netcoreapp2.2\Atividade_6.pdb
+C:\Users\Fabiano\Desktop\GITHUB\SENAI-Backend-CSharp\Atividades de Aula\Aula 19.09\Atividade_6\bin\Debug\netcoreapp2.2\Atividade_6.deps.json
+C:\Users\Fabiano\Desktop\GITHUB\SENAI-Backend-CSharp\Atividades de Aula\Aula 19.09\Atividade_6\bin\Debug\netcoreapp2.2\Atividade_6.runtimeconfig.json
+C:\Users\Fabiano\Desktop\GITHUB\SENAI-Backend-CSharp\Atividades de Aula\Aula 19.09\Atividade_6\bin\Debug\netcoreapp2.2\Atividade_6.runtimeconfig.dev.json
+C:\Users\Fabiano\Desktop\GITHUB\SENAI-Backend-CSharp\Atividades de Aula\Aula 19.09\Atividade_6\bin\Debug\netcoreapp2.2\Atividade_6.dll
+C:\Users\Fabiano\Desktop\GITHUB\SENAI-Backend-CSharp\Atividades de Aula\Aula 19.09\Atividade_6\bin\Debug\netcoreapp2.2\Atividade_6.pdb
+C:\Users\Fabiano\Desktop\GITHUB\SENAI-Backend-CSharp\Atividades de Aula\Aula 19.09\Atividade_6\obj\Debug\netcoreapp2.2\Atividade_6.csprojAssemblyReference.cache
+C:\Users\Fabiano\Desktop\GITHUB\SENAI-Backend-CSharp\Atividades de Aula\Aula 19.09\Atividade_6\obj\Debug\netcoreapp2.2\Atividade_6.AssemblyInfoInputs.cache
+C:\Users\Fabiano\Desktop\GITHUB\SENAI-Backend-CSharp\Atividades de Aula\Aula 19.09\Atividade_6\obj\Debug\netcoreapp2.2\Atividade_6.AssemblyInfo.cs
+C:\Users\Fabiano\Desktop\GITHUB\SENAI-Backend-CSharp\Atividades de Aula\Aula 19.09\Atividade_6\obj\Debug\netcoreapp2.2\Atividade_6.dll
+C:\Users\Fabiano\Desktop\GITHUB\SENAI-Backend-CSharp\Atividades de Aula\Aula 19.09\Atividade_6\obj\Debug\netcoreapp2.2\Atividade_6.pdb

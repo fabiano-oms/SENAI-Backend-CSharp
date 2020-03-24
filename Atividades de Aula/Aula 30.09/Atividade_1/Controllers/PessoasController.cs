@@ -15,7 +15,7 @@ namespace Atividade_1.Controllers {
                 persona.IdadePessoa = int.Parse (Console.ReadLine ());
                 System.Console.WriteLine ("Digite seu Peso:");
                 persona.PesoPessoa = float.Parse (Console.ReadLine ());
-                System.Console.WriteLine ("Digite sua Altura:");
+                System.Console.WriteLine ("Digite sua Altura: ");
                 persona.AlturaPessoa = float.Parse (Console.ReadLine ());
             } catch (Exception ex) {
                 System.Console.WriteLine ("Desculpe :( House um erro na aplicação");
